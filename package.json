@@ -1,0 +1,24 @@
+{
+  "name": "Github-landing-page",
+  "version": "1.0.0",
+  "description": "this project is a clone of the Github landing page",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mesmoudi13/Github-landing-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mesmoudi13/Github-landing-page/issues"
+  },
+  "homepage": "https://github.com/Mesmoudi13/Github-landing-page#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
