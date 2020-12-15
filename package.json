@@ -1,5 +1,5 @@
 {
-  "name": "Github-landing-page",
+  "name": "deezer-landing-page",
   "version": "1.0.0",
   "description": "this project is a clone of the Github landing page",
   "main": "index.js",
@@ -12,7 +12,7 @@
     "url": "git+https://github.com/Mesmoudi13/Github-landing-page.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Mohammed Amin Mesmoudi",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Mesmoudi13/Github-landing-page/issues"
