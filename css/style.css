@@ -1,9 +1,10 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 *,body{
     box-sizing: border-box;
     margin: 0;
     padding: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container-xl{
@@ -78,6 +79,7 @@
 .navbar{
     box-shadow: 0 5px 4px -2px rgb(186, 184, 184);
     padding-bottom: 4px !important;
+    background-color: #fff;
 }
 
 .nav__links:hover{
@@ -119,4 +121,51 @@
     .nav__links:hover{
         box-shadow: unset;
     }
+}
+
+.container-fluid{
+    margin-top: 8rem;
+    overflow: hidden;
+}
+
+#bring{
+    font-size: 50px;
+    color: #32323d;
+    font-weight: 600;
+}
+#try{
+    color: #ef5466;
+    font-weight: 600;
+
+
+}
+
+
+.albums{
+    margin-right: -10px;
+}
+.btns{
+    margin-top: 40px;
+}
+
+.premium{
+    background-color: #ef5466;
+    border: none;
+    color: #fff;
+    border-radius: 30px;
+    font-weight: 600;
+    padding: 10px 30px 10px 30px;
+}
+.free{
+    background-color: unset;
+    border: 2px solid #4a4a4a;
+    border-radius: 30px;
+    font-weight: 600;
+    padding: 10px 30px 10px 30px;
+    color: #4a4a4a;
+}
+
+.premium:focus,.free:focus{
+    outline: none;
+    box-shadow: none;
 }

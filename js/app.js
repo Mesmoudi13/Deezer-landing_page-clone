@@ -8,4 +8,3 @@ changeIcon = () =>{
     close.classList.toggle('d-none')
 
 }
-
