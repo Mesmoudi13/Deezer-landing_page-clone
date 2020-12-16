@@ -5,3 +5,118 @@
     margin: 0;
     padding: 0px;
 }
+
+.container-xl{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.nav__links{
+    font-size: 1.3rem;
+    color: #32323d !important;
+    font-weight: 500;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.nav-item{
+    margin-right: 30px;
+}
+.navbar-brand{
+    line-height: 0;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#log_in_btn{
+    background-color: white !important;
+    outline: none;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-color: #3399c9;
+    border-style: solid;
+    margin-top: 15px;
+}
+
+#log_in{
+    color: #3399c9;
+    font-weight: 500;
+    margin-bottom: -3px;
+    margin-top: -3px;
+}
+
+#sign_up_btn{
+    background-color: #3399c9 !important;
+    outline: none;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 15px;
+    border-style: solid;
+    border-color: #3399c9;
+    margin-left: -15px;
+}
+#sign_up_btn:hover{
+    background-color: #006da0 !important;
+    border-color: #006da0;
+}
+#sign_up{
+    color: #ffffff !important;
+    font-weight: 500;
+    margin-bottom: -3px;
+    margin-top: -3px;
+
+}
+.navbar-brand{
+    margin-left: 30px;
+}
+.navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar{
+    box-shadow: 0 5px 4px -2px rgb(186, 184, 184);
+    padding-bottom: 4px !important;
+}
+
+.nav__links:hover{
+    box-shadow: 0 4px 0px 0px #3399c9;
+    transition: all 0.1s ease;
+}
+
+@media only screen and (max-width: 991px){
+    .navbar-nav{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .nav-item{
+        margin-bottom: 20px;
+    }
+    #log_in{
+        font-size: 1.3rem;
+        color: #32323d !important;
+        font-weight: 500;
+    }
+    #sign_up{
+        font-size: 1.3rem;
+        color: #32323d !important;
+        font-weight: 500;
+    }
+    #sign_up_btn{
+        margin-left: unset;
+        border: unset;
+        background-color: #ffffff !important;
+    }
+    #sign_up_btn:hover{
+        background-color: #ffffff !important;
+
+    }
+    #log_in_btn{
+        border: none;
+    }
+    .nav__links:hover{
+        box-shadow: unset;
+    }
+}
