@@ -121,19 +121,33 @@
     .nav__links:hover{
         box-shadow: unset;
     }
+    #bring {
+        font-size: 5vw !important;
+    }
 }
 
 .container-fluid{
-    margin-top: 8rem;
+    margin-top: 10rem;
     overflow: hidden;
 }
 
 #bring{
-    font-size: 50px;
+    font-size: 4vw;
     color: #32323d;
     font-weight: 600;
+    width: 60%;
+}
+
+@media only screen and (max-width: 800px){
+    #bring {
+        font-size: 5.5vw !important;
+    }
+    #try{
+        font-size: 5.5vw;
+    }
 }
 #try{
+    margin-top: 10px;
     color: #ef5466;
     font-weight: 600;
 
@@ -143,9 +157,11 @@
 
 .albums{
     margin-right: -10px;
+    
 }
 .btns{
-    margin-top: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .premium{
@@ -154,18 +170,42 @@
     color: #fff;
     border-radius: 30px;
     font-weight: 600;
-    padding: 10px 30px 10px 30px;
+    width: 47%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
 }
 .free{
     background-color: unset;
     border: 2px solid #4a4a4a;
     border-radius: 30px;
     font-weight: 600;
-    padding: 10px 30px 10px 30px;
     color: #4a4a4a;
+    width: 47%;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin-bottom: 20px;
 }
 
 .premium:focus,.free:focus{
     outline: none;
     box-shadow: none;
 }
+
+/* button grow effect*/
+
+.grow-on-hover {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .grow-on-hover:hover, .grow-on-hover:focus, .grow-on-hover:active {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
