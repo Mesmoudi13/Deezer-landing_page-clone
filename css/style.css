@@ -126,9 +126,10 @@
     }
 }
 
-.container-fluid{
-    margin-top: 10rem;
+.first{
+    margin-top: 9rem;
     overflow: hidden;
+    padding-bottom: 2rem;
 }
 
 #bring{
@@ -208,4 +209,30 @@
   .grow-on-hover:hover, .grow-on-hover:focus, .grow-on-hover:active {
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
+  }
+
+  /*Second container*/
+
+  .second{
+      background-color: #f9f9f9;
+      padding: 4vw 0 2vw 0;
+  }
+
+  .why__deezer > h1{
+      font-size: 40px;
+      font-weight: 700;
+      margin-bottom: 50px;
+  }
+
+  .phone{
+      margin-top: -40px;
+  }
+
+  .txt > h4{
+      font-weight: 700;
+      margin-bottom: 20px;
+  }
+
+  .txt > p{
+      margin-bottom: 20px;
   }
