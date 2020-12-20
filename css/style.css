@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0px;
     font-family: 'Roboto', sans-serif;
+    --bs-gutter-x: unset !important;
 }
 
 .container-xl{
@@ -160,7 +161,6 @@
 
 .albums{
     margin-right: -11px;
-    
 }
 .btns{
     margin-top: 20px;
@@ -253,4 +253,31 @@
   .third{
       background-color: #ef5466;
       color: #fff;
+      height: 18rem;
   }
+
+  .material-icons{
+      font-size: 50px;
+      font-weight: 100 !important;
+  }
+
+  .always__txt > h1{
+      margin-bottom: 22px;
+      font-size: 40px;
+      font-weight: 700;
+  }
+  .always__txt > p{
+      font-size: 20px;
+      margin-bottom: 20px;
+      font-weight: 400;
+  }
+  
+  @media only screen and (max-width: 768px){
+    .always__txt > h1{
+        font-size: 30px;
+    }
+    .always__txt > p{
+        font-size: 18px;
+    }
+  }
+  
