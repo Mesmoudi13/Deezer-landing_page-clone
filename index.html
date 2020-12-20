@@ -6,6 +6,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <title>Deezer</title>
 </head>
@@ -13,7 +15,7 @@
   <!--navbar-->
 
     <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container-xl">
+        <div class="container-xl nav__container">
           <a class="navbar-brand" href="#"><img src="./img/Deezer_logo.svg" alt="" style="height: 110pxpx; width: 140px;"></a>
           <button onclick="changeIcon()" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-bars" style="color: black; font-size: 35px;"></i>
@@ -62,13 +64,13 @@
     <!--Second container (phone)-->
 
     <div class="container-fluid second">
-      <div class="row justify-content-sm-between container-xl">
-        <div class="phone col-lg-3 d-none d-lg-block">
+      <div class="d-flex container-xl">
+        <div class="phone col-lg-5 d-none d-lg-block">
           <img src="./img/Apple_announces-apple-music-radio_08182020_inline.jpg.large.jpg" style="width: 500px ; height: 670px;" alt="">
         </div>
-        <div class="why__deezer col-lg-6">
-          <h1 class="text-center">Why Deezer ?</h1>
-          <div class="row align-items-center">
+        <div class="why__deezer offset-lg-1 col-lg">
+          <h1>Why Deezer ?</h1>
+          <div class="row">
             <div class="txt col-sm-6 col-12">
               <h4>A world of music in your pocket.</h4>
               <p>Find new loves and old favourites from over 56 million tracks.</p>
@@ -78,7 +80,7 @@
               <p>With Deezer Premium, you don't need to be connected to enjoy your favourite tracks.</p>
             </div>
           </div>
-          <div class="row justify-content-center">
+          <div class="row">
             <div class="txt col-sm-6 col-12">
               <h4>Craft your collection.</h4>
               <p>Create playlists from millions of tracks and take them with you wherever you go.</p>
@@ -88,6 +90,40 @@
               <p>Flow gets to know what you like and what you don't. Discover your personal soundtrack.</p>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Third container-->
+
+    <div class="container-fluid third">
+      <div class="row">
+        <div class="devices col-12 col-lg-6">
+          <span class="material-icons">
+            laptop
+          </span>
+          <span class="material-icons">
+            devices
+          </span>
+          <span class="material-icons">
+            watch
+          </span>
+          <span class="material-icons">
+            speaker
+          </span>
+          <span class="material-icons">
+            personal_video
+          </span>
+          <span class="material-icons">
+            directions_car
+          </span>
+        </div>
+        <div class="always__txt col-12 col-lg-6">
+          <h1>Always with you</h1>
+          <p>
+            Download your music and take it from your morning run to dinner out with Deezer Premium.
+             Available on all your devices, all the time, even without WiFi or 4G.
+          </p>
         </div>
       </div>
     </div>

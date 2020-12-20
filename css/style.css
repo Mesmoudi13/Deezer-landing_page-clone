@@ -130,6 +130,8 @@
     margin-top: 9rem;
     overflow: hidden;
     padding-bottom: 2rem;
+    padding-left: unset;
+    padding-right: -20px !important;
 }
 
 #bring{
@@ -157,7 +159,7 @@
 
 
 .albums{
-    margin-right: -10px;
+    margin-right: -11px;
     
 }
 .btns{
@@ -215,8 +217,16 @@
 
   .second{
       background-color: #f9f9f9;
-      padding: 4vw 0 2vw 0;
+      padding: 6vw 0 2vw 0;
+      padding-left: unset;
+      padding-right: unset;
   }
+
+  .second > div.row{
+      justify-content: space-around !important;
+  }
+
+
 
   .why__deezer > h1{
       font-size: 40px;
@@ -225,7 +235,8 @@
   }
 
   .phone{
-      margin-top: -40px;
+      margin-top: -35px;
+      margin-left: -70px;
   }
 
   .txt > h4{
@@ -234,5 +245,12 @@
   }
 
   .txt > p{
-      margin-bottom: 20px;
+      margin-bottom: 40px;
+  }
+
+  /*third container*/
+  
+  .third{
+      background-color: #ef5466;
+      color: #fff;
   }
