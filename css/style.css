@@ -253,10 +253,10 @@
   .third{
       background-color: #ef5466;
       color: #fff;
-      height: 18rem;
+      padding: 3rem 0 3rem  0;
   }
 
-  .material-icons{
+  .devices{
       font-size: 50px;
       font-weight: 100 !important;
   }
@@ -280,4 +280,34 @@
         font-size: 18px;
     }
   }
-  
+
+/*Fourth container (offers)*/
+
+.fourth{
+    padding: 5vw 0 5vw 0;
+}
+
+
+.offers__container{
+    margin-right: -7px;
+    margin-top: 5rem;
+}
+
+.offers{
+    box-shadow: 0 0 10px #bfbebe;
+    margin-right: 7px;
+    margin-bottom: 15px;
+    width: 260px;
+    height: 600px;
+    padding: 35px 20px 35px 20px;
+}
+
+ul.features{
+    list-style: none;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+.check{
+    color: #a0a4a9;
+    font-weight: 600;
+}
