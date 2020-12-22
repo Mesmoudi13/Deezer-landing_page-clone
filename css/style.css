@@ -294,20 +294,101 @@
 }
 
 .offers{
-    box-shadow: 0 0 10px #bfbebe;
+    box-shadow: 0 0 14px #bfbebe;
     margin-right: 7px;
-    margin-bottom: 15px;
-    width: 260px;
-    height: 600px;
-    padding: 35px 20px 35px 20px;
+    margin-bottom: 20px;
+    width: 270px;
+    max-height: 650px;
+    padding: 35px 0px 35px 0px;
+}
+.offers > h1{
+    font-size: 38px;
+}
+
+.offers > h2,h1{
+    font-weight: 600;
 }
 
 ul.features{
     list-style: none;
     margin-top: 30px;
-    margin-bottom: 80px;
+    margin-bottom: 6vw;
+    margin-left: 40px;
+}
+.features > li {
+    font-weight: 600;
+    line-height: 40px;
 }
 .check{
     color: #a0a4a9;
     font-weight: 600;
 }
+
+#blue_offer{
+    background-color: #2d96c8;
+    color: #fff !important;
+}
+
+.disabled{
+    color: #d8d8d8;
+    font-weight: 400 !important;
+}
+.features > li{
+    position: relative;
+}
+
+li > span{
+    position: absolute;
+    right: 105%;
+    bottom: 25%;
+}
+
+.end__offer > p,a{
+    font-weight: 600;
+    text-decoration: none;
+    color: #2d96c8;
+    font-size: 17px;
+}
+
+.end__offer > a:hover{
+    color: #2d96c8;
+}
+
+#blue_offer > .end__offer > p{
+    color: #fff;
+}
+
+#blue_offer > .end__offer > a{
+    color: #fff;
+}
+
+
+/*offers buttons*/
+
+
+.offer__btn{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    width: 180px;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    border-radius: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-bottom: 15px;
+}
+.offer__btn:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.sign{
+    background-color: #8e8e94;
+}
+.try{
+    background-color: #ef5466;
+}
+
+
