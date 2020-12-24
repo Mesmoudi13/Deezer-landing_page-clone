@@ -299,7 +299,7 @@
     margin-bottom: 20px;
     width: 270px;
     max-height: 650px;
-    padding: 35px 0px 35px 0px;
+    padding: 20px 0px 25px 0px;
 }
 .offers > h1{
     font-size: 38px;
@@ -391,4 +391,44 @@ li > span{
     background-color: #ef5466;
 }
 
+
+/*Fifth container */
+
+.fifth > .container-fluid{
+    background-color: #f0f0f0;
+    padding: 20px 10vw 20px 10vw;
+}
+.annual{
+    margin-bottom: 15px;
+}
+.fifth__txt > h2{
+    font-weight: 600;
+    font-size: 30px;
+    color: #313448;
+    margin-bottom: 2vh;
+}
+.fifth__txt > p {
+    font-size: 20px;
+    color: #313448;
+}
+
+.fifth__btns{
+    width: 190px;
+    background-color: transparent;
+    border: 2px solid #313448;
+    color: #313448;
+    border-radius: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.fifth__btns:focus{
+    outline: none;
+    box-shadow: none;
+}
+.fifth__btns:hover{
+    border-color: #000000;
+    color: #000000;
+}
 
