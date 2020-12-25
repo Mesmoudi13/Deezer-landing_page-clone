@@ -432,3 +432,73 @@ li > span{
     color: #000000;
 }
 
+/*Foooter*/
+
+footer{
+    background-color: #32323d;
+}
+footer > .container-lg{
+    padding-top: 8vw;
+    padding-bottom: 8vw;
+}
+
+.footer__logo{
+    width: 170px;
+    height: 35px;
+}
+.social{
+    margin-top: 40px;
+}
+.social > button{
+    color: #6e6e79;
+    background-color: transparent;
+    outline: none;
+    box-shadow: none;
+    font-size: 19px;
+    margin-left: 7px;
+    border: 2px solid #6e6e79;
+    border-radius: 50%;
+    width: 35px;
+    padding-top: 3.5px;
+    padding-bottom: 3px;
+}
+.social > button:hover{
+    color: #32323d;
+    background-color: #6e6e79;
+    transition: all 0.3s ease;
+}
+@media only screen and (min-width: 768px){
+    .logos{
+        width: 22%;
+        margin-right: 5%;
+    }
+
+}
+.footer__txt{
+    width: 73%;
+}
+.footer__titles{
+    color: #268db7;
+    font-weight: 600;
+    font-size: 15px;
+}
+.footer__links{
+    color: #cccccc;
+    font-size: 15px;
+    font-weight: 600;
+}
+.footer__links:hover{
+    color: #cccccc;
+}
+.txt__elem{
+    margin-right: 25px;
+}
+
+@media only screen and (max-width: 767px){
+    .social{
+        width: 50%;
+    }
+    .footer__txt{
+        margin-top: 5rem;
+    }
+}
