@@ -500,5 +500,25 @@ footer > .container-lg{
     }
     .footer__txt{
         margin-top: 5rem;
+        width: 100%;
+        border-bottom: 1.5px solid #6e6e79;
     }
+    .txt__elem{
+        border-top: 1.5px solid #6e6e79;
+        padding-top: 15px;
+        width: 100%;
+    }
+    .footer__links{
+        display: none;
+    }
+}
+.fa-plus{
+    color: #6e6e79;
+    margin-right: 10PX;
+    cursor: pointer;
+}
+.fa-minus{
+    color: #6e6e79;
+    margin-right: 10px;
+    cursor: pointer;
 }

@@ -8,3 +8,18 @@ changeIcon = () =>{
     close.classList.toggle('d-none')
 
 }
+
+//Show more function in the Footer
+let links = document.getElementsByClassName('footer__links')
+let plus = document.getElementsByClassName('fa-plus')
+let minus = document.getElementsByClassName('fa-minus')
+plus.addEventListener("click", showMore())
+
+showMore = () =>{
+    links.style.display = block;
+    plus.classList.remove('d-block');
+    plus.classList.add('d-none')
+    minus.classList.add('d-block')
+    minus.classList.remove('d-none')
+
+}
