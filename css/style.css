@@ -494,7 +494,7 @@ footer > .container-lg{
 
 @media only screen and (max-width: 767px){
     .social{
-        width: 50%;
+        width: 70%;
     }
     .footer__txt{
         margin-top: 5rem;
@@ -508,6 +508,10 @@ footer > .container-lg{
     }
     .offers__container{
         margin-top: 30px;
+    }
+    .footer__logo{
+        width: 130px;
+        height: 30px;
     }
 }
 .fa-plus{
