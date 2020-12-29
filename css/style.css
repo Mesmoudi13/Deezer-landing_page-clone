@@ -494,7 +494,7 @@ footer > .container-lg{
 
 @media only screen and (max-width: 767px){
     .social{
-        width: 70%;
+        width: 80%;
     }
     .footer__txt{
         margin-top: 5rem;
