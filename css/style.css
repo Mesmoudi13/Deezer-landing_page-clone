@@ -132,7 +132,6 @@
     overflow: hidden;
     padding-bottom: 2rem;
     padding-left: unset;
-    padding-right: -20px !important;
 }
 
 #bring{
@@ -160,7 +159,7 @@
 
 
 .albums{
-    margin-right: -11px;
+   margin-right: -15px;
 }
 .btns{
     margin-top: 20px;
@@ -290,7 +289,6 @@
 
 .offers__container{
     margin-right: -7px;
-    margin-top: 5rem;
 }
 
 .offers{
@@ -439,7 +437,7 @@ footer{
 }
 footer > .container-lg{
     padding-top: 8vw;
-    padding-bottom: 8vw;
+    padding-bottom: 3vw;
 }
 
 .footer__logo{
@@ -508,8 +506,8 @@ footer > .container-lg{
         padding-top: 15px;
         width: 100%;
     }
-    .footer__links{
-        display: none;
+    .offers__container{
+        margin-top: 30px;
     }
 }
 .fa-plus{
@@ -521,4 +519,24 @@ footer > .container-lg{
     color: #6e6e79;
     margin-right: 10px;
     cursor: pointer;
+}
+
+#copyRight{
+    color: #6e6e79;
+    font-size: smaller;
+    font-weight: 400;
+    margin-bottom: 3vw;
+}
+
+.recom{
+    margin-top: 25px;
+    font-weight: 400;
+    font-size: 13.5px;
+    color: #6e6e79;
+}
+.flech{
+    transform: rotate(180deg);
+    color: #2d96c8;
+    font-size: larger;
+    margin-bottom: 10px;
 }

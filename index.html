@@ -133,6 +133,8 @@
     <div class="container-fluid fourth">
       <div class="container-xxl">
         <h1 class="text-center">Get your music</h1>
+        <h6 class="d-none d-md-block text-center recom">RECOMMANDED</h6>
+        <center><i class="d-none d-md-block fas fa-sort-up flech"></i></center>
         <div class="d-flex justify-content-center flex-column align-items-center flex-md-row offers__container">
           <div class="offers">
             <h2 class="text-center">Deezer<br>Free</h2>
@@ -183,6 +185,8 @@
               <a href="/">More info</a>
             </div>
           </div>
+          <h6 class="d-md-none text-center recom">RECOMMANDED</h6>
+          <center><i class="d-md-none fas fa-sort-up flech"></i></center>
           <div class="offers" id="blue_offer">
             <h2 class="text-center">Deezer<br>Premium</h2>
             <h1 class="text-center">DZD 539.00</h1>
@@ -316,50 +320,53 @@
           <div class="txt__elem">
             <div class="d-flex justify-content-between">
               <p class="footer__titles">DEEZER</p>
-              <i class="fas fa-plus d-block d-md-none"></i>
-              <i class="fas fa-minus d-none"></i>
+              <i class="fas fa-plus d-block d-md-none" onclick="showMore(plus[0],minus[0],0)"></i>
+              <i class="fas fa-minus d-none d-md-none" onclick="showLess(plus[0],minus[0],0)"></i>
             </div>
-            <p><a href="#" class="footer__links">Plans</a></p>
-            <p><a href="#" class="footer__links">Features</a></p>
-            <p><a href="#" class="footer__links">Devices</a></p>
-            <p><a href="#" class="footer__links">Help</a></p>
-            <p><a href="#" class="footer__links">About us</a></p>
-            <p><a href="#" class="footer__links">Careers</a></p>
+            <p><a href="#" class="footer__links not d-none d-md-block">Plans</a></p>
+            <p><a href="#" class="footer__links not d-none d-md-block">Features</a></p>
+            <p><a href="#" class="footer__links not  d-none d-md-block">Devices</a></p>
+            <p><a href="#" class="footer__links not d-none d-md-block">Help</a></p>
+            <p><a href="#" class="footer__links not d-none d-md-block">About us</a></p>
+            <p><a href="#" class="footer__links d-none d-md-block">Careers</a></p>
           </div>
           <div class="txt__elem">
             <div class="d-flex justify-content-between">
               <p class="footer__titles">EXPLORE</p>
-              <i class="fas fa-plus d-block d-md-none"></i>
-              <i class="fas fa-minus d-none d-md-none"></i>
+              <i class="fas fa-plus d-block d-md-none" onclick="showMore(plus[1],minus[1],6)"></i>
+              <i class="fas fa-minus d-none d-md-none" onclick="showLess(plus[1],minus[1],6)"></i>
             </div>
-            <p><a href="#" class="footer__links">All Channels</a></p>
-            <p><a href="#" class="footer__links">Charts</a></p>
-            <p><a href="#" class="footer__links">Most Popular release</a></p>
-            <p><a href="#" class="footer__links">New Releases</a></p>
-            <p><a href="#" class="footer__links">Stay at home</a></p>
+            <p><a href="#" class="footer__links not d-none d-md-block">All Channels</a></p>
+            <p><a href="#" class="footer__links not d-none d-md-block">Charts</a></p>
+            <p><a href="#" class="footer__links not d-none d-md-block">Most Popular release</a></p>
+            <p><a href="#" class="footer__links not d-none d-md-block">New Releases</a></p>
+            <p><a href="#" class="footer__links d-none d-md-block">Stay at home</a></p>
           </div>
           <div class="txt__elem">
             <div class="d-flex justify-content-between">
               <p class="footer__titles">WHO WE ARE?</p>
-              <i class="fas fa-plus d-block d-md-none"></i>
-              <i class="fas fa-minus d-none d-md-none"></i>
+              <i class="fas fa-plus d-block d-md-none" onclick="showMore(plus[2],minus[2],11)"></i>
+              <i class="fas fa-minus d-none d-md-none" onclick="showLess(plus[2],minus[2],11)"></i>
             </div>
-            <p><a href="#" class="footer__links">Labels & artists</a></p>
-            <p><a href="#" class="footer__links">Developers</a></p>
-            <p><a href="#" class="footer__links">Press</a></p>
+            <p><a href="#" class="footer__links not d-none d-md-block">Labels & artists</a></p>
+            <p><a href="#" class="footer__links not d-none d-md-block">Developers</a></p>
+            <p><a href="#" class="footer__links d-none d-md-block">Press</a></p>
           </div>
           <div class="txt__elem">
             <div class="d-flex justify-content-between">
               <p class="footer__titles">LEGAL</p>
-              <i class="fas fa-plus d-block d-md-none"></i>
-              <i class="fas fa-minus d-none d-md-none"></i>
+              <i class="fas fa-plus d-block d-md-none" onclick="showMore(plus[3],minus[3],14)"></i>
+              <i class="fas fa-minus d-none d-md-none" onclick="showLess(plus[3],minus[3],14)"></i>
             </div>
-            <p><a href="#" class="footer__links">Legal Notice</a></p>
-            <p><a href="#" class="footer__links">Terms and Conditions of use</a></p>
-            <p><a href="#" class="footer__links">Privacy policy</a></p>
-            <p><a href="#" class="footer__links">Cookies</a></p>
+            <p><a href="#" class="footer__links not d-none d-md-block">Legal Notice</a></p>
+            <p><a href="#" class="footer__links not d-none d-md-block">Terms and Conditions of use</a></p>
+            <p><a href="#" class="footer__links not d-none d-md-block">Privacy policy</a></p>
+            <p><a href="#" class="footer__links d-none d-md-block">Cookies</a></p>
           </div>
         </div>
+      </div>
+      <div class="container d-flex justify-content-center justify-content-md-end">
+        <h6 id="copyRight">&copy 2020 Deezer</h6>
       </div>
     </footer>
 
